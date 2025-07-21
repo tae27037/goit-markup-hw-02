@@ -36,6 +36,7 @@
 .title-name{
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .title .button{
@@ -46,13 +47,16 @@
     font-size: 16px;
     line-height: 1.5;
     color: #FFFFFF;
+    letter-spacing: 0.04em;
     
 }
 
 .title .button:hover{
     background-color: #404BBF;
 }
-
+.title .button:active{
+    background-color: #404BBF;
+}
 
 
 
