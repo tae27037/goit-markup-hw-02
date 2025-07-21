@@ -14,7 +14,9 @@
 }
 
 
-  .page-header {
+.page-header > nav > a {
+    font-family: "Raleway", sans-serif;
+
     background-color: #FFFFFF;
     color: #2E2F42;
 
@@ -28,11 +30,21 @@
  .title{
     background-color: #2E2F42;
     color: #FFFFFF;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .title .button{
+    font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    
 }
 
 .title .button:hover{
@@ -71,9 +83,8 @@
 
  .team-item{
     background-color: #FFFFFF;
-    border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
-    width: 264px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,8 +96,6 @@
 
 .team-photo{
     display: block;
-    width: 100%;
-    height: auto;
 }
 
 .team-name{
