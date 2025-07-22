@@ -126,7 +126,7 @@
 }
 
 
-.team-titlle, .portfolio-title{
+.team-title, .portfolio-title{
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
@@ -250,9 +250,7 @@
     padding: 32px 16px;
 } */
 
-/* .footer{
-    background-color: #2E2F42;
-} */
+
 .footer{
     background-color: #2E2F42;
 }
