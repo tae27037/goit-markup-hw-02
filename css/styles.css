@@ -92,7 +92,6 @@
 } 
 
 
-
 .benefits-title, .benefits-subtitle{
     color: #2e2f42;
     font-weight: 500;
@@ -107,16 +106,6 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 .team{
@@ -136,15 +125,15 @@
     text-transform: capitalize;
 } 
 
- .team-list{
-    /* display: flex;
-        justify-content: center; */
-        /* gap: 24px; */
+ /* .team-list{
+    display: flex;
+        justify-content: center; 
+        gap: 24px; 
         list-style: none;
-        /* padding: 0; */
-        /* margin: 0; */
-        /* flex-wrap: wrap; */
-} 
+        padding: 0; 
+         margin: 0;
+        flex-wrap: wrap;
+}  */
 
  .team-item{
     background-color: #FFFFFF;
@@ -152,10 +141,10 @@
 
     /* display: flex; */
     /* align-items: center; */
-    justify-content: center;
+    /* justify-content: center; */
     /* flex-direction: column; */
     /* gap: 32px; */
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    /* box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
     
 }
 
@@ -195,7 +184,7 @@
     line-height: 1.11;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
     text-transform: capitalize;
 } 
 
